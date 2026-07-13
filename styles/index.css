@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shared style */
+.border{
+    border: 2px solid green;
+}
+.flex{
+    display: flex;
+}
+.m-right{
+    margin-right: 8px;
+}
+.gray{
+    color: #575757;
+}
+.btn-primary{
+    background-color: #E8BA2E;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 20px;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+header{
+    margin: 20px 40px;
+}
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 25px;
+}
+nav a{
+    color: #575757;
+    text-decoration: none;
+}
+/* banner-section */
+.banner-section{
+    color: #FFFFFF;
+    background-image: url(../images/banner.avif);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    border-radius: 16px;
+    margin: 24px 0;
+}
+.banner-content{
+    padding: 100px 700px 100px 30px;
+}
+.banner-content h1{
+    font-size: 88px;
+    font-weight: 700;
+}
+.banner-content button{
+    margin-top: 40px;
+}
