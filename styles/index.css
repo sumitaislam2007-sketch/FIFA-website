@@ -90,7 +90,7 @@ nav a{
     margin-top: 24px;
 }
 /* explore section */
-.explore-section, .matches-section{
+.explore-section, .matches-section, .news-section{
     margin: 90px 100px 100px;
 }
 .section-title{
@@ -141,6 +141,19 @@ td, th{
 th{
     background-color: #BA1A1A;
     color: #FFFFFF;
+}
+/* news section */
+.news-section{
+    text-align: center;
+    background-color: #BDA004;
+    border-radius: 10px;
+    padding: 50px 0;
+}
+form input{
+    padding: 10px 200px 10px 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
 }
 /* footer section */
 footer{
