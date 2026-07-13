@@ -110,9 +110,10 @@ nav a{
 .content-container h4{
     font-weight: bold;
     font-size: 40px;
+    color: #111C2D;
 }
 .content-container p{
-    margin-top: 16px;
+    margin-top: 14px;
     margin-bottom: 11px;
 }
 /* matches section */
