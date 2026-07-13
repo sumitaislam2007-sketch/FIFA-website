@@ -10,6 +10,9 @@
 .flex{
     display: flex;
 }
+.center{
+    text-align: center;
+}
 .m-right{
     margin-right: 8px;
 }
@@ -38,7 +41,7 @@ nav{
 nav ul{
     display: flex;
 }
-nav ul li{
+ul li{
     list-style: none;
     margin-right: 25px;
 }
@@ -79,4 +82,30 @@ nav a{
     font-weight: 700;
     font-size: 72px;
     margin-top: 24px;
+}
+/* explore section */
+.explore-section{
+    margin: 90px 100px 100px;
+}
+.section-title{
+    font-weight: 600;
+    font-size: 56px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.city{
+    display: flex;
+    margin-bottom: 48px;
+}
+.img-container img{
+    border-radius: 16px;
+    margin-right: 48px;
+}
+.content-container h4{
+    font-weight: bold;
+    font-size: 40px;
+}
+.content-container p{
+    margin-top: 16px;
+    margin-bottom: 11px;
 }
